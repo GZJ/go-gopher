@@ -1,9 +1,14 @@
 module github.com/prologic/go-gopher
 
 require (
-	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/stretchr/testify v1.6.0
-	golang.org/x/net v0.0.0-20181220203305-927f97764cc3
+	golang.org/x/net v0.60.0
 )
 
-go 1.13
+require (
+	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
+)
+
+go 1.26.0
